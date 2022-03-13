@@ -1,0 +1,94 @@
+:root {
+    --blue: #012052;
+    --white: #fff;
+    --teal: #22c9fc;
+}
+
+html {
+    font-size: 62.5%;
+    text-align: center;
+}
+
+header {
+    background-color: var(--blue);
+    padding: 2% 0;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    background-color: var(--teal);
+    color: var(--blue);
+    padding: 2% 0;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 1%;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: var(--white);
+    background-color: var(--teal);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.625rem;
+    color: var(--teal);
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+h1 {
+    font-size: 4rem;
+    color: var(--white);
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+    
+h3 {
+    font-size: 3rem;
+}
+    
+h4 {
+    font-size: 2.5rem;
+}
+    
+h5 {
+    font-size: 2rem;
+}
+    
+h6 {
+    font-size: 1.5rem;
+}
+    
+p {
+    margin-bottom: 1rem;
+}
+
+main {
+    background-color: var(--white);
+    color: var(--blue)
+}
+
+.about-me, .projects, .contact {
+    padding: 3% 0;
+}
+
+.about-me img {
+    width: 50%;
+    border-radius: 50%;
+}

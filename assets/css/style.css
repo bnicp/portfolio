@@ -4,8 +4,15 @@
   --teal: #22c9fc;
 }
 
+* {
+  justify-content: center;
+  text-align: center;
+
+}
+
 html {
   font-size: 62.5%;
+  justify-content: center;
   text-align: center;
 }
 
@@ -16,14 +23,13 @@ footer {
   text-align: center;
 }
 
-nav a {
-  display: block;
-  background-color: var(--teal);
-  color: var(--blue);
-  padding: 2% 0;
-  border-radius: 2rem;
-  text-align: center;
-  text-decoration: none;
+footer {
+  height: 100px;
+}
+
+nav {
+  background-color: var(--blue);
+  padding-bottom: 3%;
 }
 
 nav li {
@@ -35,6 +41,17 @@ nav li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+nav a {
+  display: flex;
+  background-color: var(--teal);
+  color: var(--blue);
+  padding: 2%;
+  border-radius: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+
 
 .body {
   font-family: "Courier New", Courier, monospace;
@@ -60,6 +77,7 @@ h6 {
 h1 {
   font-size: 4rem;
   color: var(--white);
+  padding: 3% 0;
 }
 
 h2 {
@@ -95,7 +113,7 @@ main {
 .about-me,
 .projects,
 .contact-me {
-  padding: 3% 0;
+  padding: 4%;
   font-size: 1.5;
 }
 
@@ -105,15 +123,16 @@ main {
   padding: 3%;
 }
 
-.contact-info {
-  line-height: 1.3;
+.about-me p, .projects p, .contact-info {
+  padding: 2%;
+  line-height: 1.5;
   font-size: 1.5rem;
 }
 
 .card-box {
   display: flex;
   flex-wrap: wrap;
-  margin: -0.5rem;
+  margin: 2%;
 }
 
 .card-slide,
@@ -127,20 +146,22 @@ main {
   padding: 3%;
   font-size: 2rem;
   text-align: center;
-  width: 46%;
+  width: 43%;
   border-radius: 10%;
+  opacity: 50%;
+  background-image: linear-gradient(
+    rgba(114, 209, 247, 0.3) 0%,
+    rgba(0, 4, 59, 0.6) 100%);
+  );
+  )
 }
 
 .hero-project {
-  width: 96%;
-  min-height: 400px;
-  background-image: linear-gradient(
-      rgba(114, 209, 247, 0.3) 0%,
-      rgba(0, 4, 59, 0.6) 100%);
-    );
+  width: 90%;
+  min-height: 300px;
 }
 
-.hero-project header {
+.hero-project header, .card-slide header {
   position: relative;
   margin-top: 50%;
   font-size: 2.5rem;
@@ -150,7 +171,13 @@ main {
   border-radius: 10px;
 }
 
+.hero-project:hover, .card-slide:hover {
+  opacity: 100%;
+}
 
+.contact-info {
+  margin: 3%;
+}
 
 
 
@@ -164,11 +191,12 @@ main {
 }
 
 @media screen and (min-width: 992px) {
-  nav a {
+  nav {
+    display: inline;
   }
 
   nav li {
-    display: block;
-    float: right;
+   ;
+    width: 15%;
   }
 }

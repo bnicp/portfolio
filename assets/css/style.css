@@ -25,6 +25,7 @@ footer {
 
 footer {
   height: 100px;
+  color: var(--white);
 }
 
 nav {
@@ -98,6 +99,7 @@ h5 {
 
 h6 {
   font-size: 1.5rem;
+  color: var(--white);
 }
 
 p {
@@ -195,8 +197,7 @@ main {
     display: inline;
   }
 
-  nav li {
-   ;
-    width: 15%;
+  .card-slide {
+    width: 27.5%;
   }
 }

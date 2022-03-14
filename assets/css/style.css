@@ -31,7 +31,6 @@ h6 {
 
 h1 {
   font-size: 4rem;
-  color: var(--white);
   padding: 9% 0 0 0;
 }
 
@@ -54,12 +53,16 @@ h5 {
 
 h6 {
   font-size: 1.5rem;
-  color: var(--white);
+  padding-top: 3rem;
 }
 
 p {
-  margin-bottom: 1rem;
   font-size: 1.5rem;
+  margin: 2rem 0;
+  padding: 0 4%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 header,
@@ -82,9 +85,9 @@ nav {
 
 li {
   display:inline;
-  padding: 2%;
+  padding: 1rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -119,12 +122,13 @@ nav a:active {
 main {
   background-color: var(--white);
   color: var(--blue);
+  padding-top: 3rem;
 }
 
 #about-me,
 #projects,
 #contact-me {
-  padding: 5%;
+  padding-bottom: 3rem;
   font-size: 1.5;
 }
 
@@ -134,11 +138,8 @@ main {
   margin: 3%;
 }
 
-.about-me p, .projects p {
-  padding: 2% 4%;
-  line-height: 1.5;
-  font-size: 1.5rem;
-  text-align: justify;
+.contact-info {
+  text-align: center;
 }
 
 .card-box {

@@ -16,52 +16,6 @@ html {
   text-align: center;
 }
 
-header,
-footer {
-  background-color: var(--blue);
-  padding: 2% 0;
-  text-align: center;
-}
-
-footer {
-  height: 100px;
-  color: var(--white);
-}
-
-nav {
-  background-color: var(--blue);
-  padding-bottom: 3%;
-}
-
-nav li {
-  padding: 2%;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-nav a {
-  display: flex;
-  background-color: var(--teal);
-  color: var(--blue);
-  padding: 2%;
-  border-radius: 2rem;
-  text-align: center;
-  text-decoration: none;
-}
-
-
-
-.body {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.75rem;
-  line-height: 1.5;
-  color: var(--white);
-  background-color: var(--teal);
-}
-
 h1,
 h2,
 h3,
@@ -69,7 +23,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.625rem;
-  color: var(--teal);
+  color: var(--white);
   font-weight: 700;
   line-height: 1.1;
   font-family: "Courier New", Courier, monospace;
@@ -78,11 +32,12 @@ h6 {
 h1 {
   font-size: 4rem;
   color: var(--white);
-  padding: 3% 0;
+  padding: 9% 0 0 0;
 }
 
 h2 {
   font-size: 3.5rem;
+  color: var(--teal);
 }
 
 h3 {
@@ -107,28 +62,83 @@ p {
   font-size: 1.5rem;
 }
 
+header,
+footer {
+  background-color: var(--blue);
+  padding-top: 2%;
+  text-align: center;
+  position: relative;
+}
+
+footer {
+  height: 100px;
+  color: var(--white);
+}
+
+nav {
+  background-color: var(--blue);
+  padding: 6% 0;
+}
+
+li {
+  display:inline;
+  padding: 2%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+nav a {
+  background-color: var(--teal);
+  color: var(--blue);
+  padding: 2%;
+  border-radius: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: var(--white);
+}
+
+nav a:active {
+  background-color: var(--white);
+}
+
+.body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--teal);
+}
+
 main {
   background-color: var(--white);
   color: var(--blue);
 }
 
-.about-me,
-.projects,
-.contact-me {
-  padding: 4%;
+#about-me,
+#projects,
+#contact-me {
+  padding: 5%;
   font-size: 1.5;
 }
 
 .about-me img {
   width: 50%;
   border-radius: 50%;
-  padding: 3%;
+  margin: 3%;
 }
 
-.about-me p, .projects p, .contact-info {
-  padding: 2%;
+.about-me p, .projects p {
+  padding: 2% 4%;
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
 .card-box {
@@ -139,8 +149,10 @@ main {
 
 .card-slide,
 .hero-project {
+  position: relative;
   flex-direction: row;
   justify-content: center;
+  min-height: 200px;
   margin: 2%;
   background: var(--white);
   border: 3px solid var(--blue);
@@ -150,7 +162,7 @@ main {
   text-align: center;
   width: 43%;
   border-radius: 10%;
-  opacity: 50%;
+  opacity: 80%;
   background-image: linear-gradient(
     rgba(114, 209, 247, 0.3) 0%,
     rgba(0, 4, 59, 0.6) 100%);
@@ -164,9 +176,7 @@ main {
 }
 
 .hero-project header, .card-slide header {
-  position: relative;
-  margin-top: 50%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border: var(--white) solid 1px;
   color: var(--white);
   font-weight: bold;
@@ -177,8 +187,8 @@ main {
   opacity: 100%;
 }
 
-.contact-info {
-  margin: 3%;
+.contact-me {
+  margin: 6% 0;
 }
 
 
@@ -190,11 +200,27 @@ main {
   .about-me img {
     width: 25%;
   }
+
+  .card-slide {
+    width: 40%;
+  }
 }
 
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
+  header {
+    position: relative;
+  }
+  
   nav {
+    background-color: var(--blue);
     display: inline;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  nav a {
+    float: left;
   }
 
   .card-slide {

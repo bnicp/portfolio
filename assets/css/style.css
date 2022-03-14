@@ -97,7 +97,7 @@ li {
 nav a {
   background-color: var(--teal);
   color: var(--blue);
-  padding: 2%;
+  padding: 0.5rem;
   border-radius: 2rem;
   text-align: center;
   text-decoration: none;
@@ -177,7 +177,8 @@ main {
 }
 
 .hero-project header, .card-slide header {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem 0;
   border: var(--white) solid 1px;
   color: var(--white);
   font-weight: bold;

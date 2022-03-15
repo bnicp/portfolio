@@ -174,7 +174,7 @@ a.card-slide,
 }
 
 .hero-project header, .card-slide header {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 1rem 0;
   color: var(--white);
   font-weight: bold;
@@ -195,6 +195,15 @@ a.card-slide,
   background-position: center;
 }
 
+.hero-project:hover, .card-slide:hover {
+  opacity: 100%;
+}
+
+.contact-info {
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
 #img-1 {
   background-image: url(./analytics-3088958_1920.jpg);
 }
@@ -213,18 +222,6 @@ a.card-slide,
 
 #img-5 {
   background-image: url(./code-1.png);
-}
-
-.hero-project:hover, .card-slide:hover {
-  opacity: 100%;
-}
-
-.contact-me {
-  margin: 3rem 0;
-}
-
-.contact-info {
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {

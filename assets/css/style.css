@@ -1,7 +1,7 @@
 :root {
   --blue: #012052;
   --white: #fff;
-  --teal: #22c9fc;
+  --teal: rgb(34, 201, 252);
 }
 
 * {

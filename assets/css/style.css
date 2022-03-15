@@ -60,7 +60,7 @@ p {
   padding: 0 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .body {
@@ -93,15 +93,6 @@ nav {
   padding: 2rem 0;
 }
 
-li {
-  display: inline-block;
-  padding: 1rem 0.5rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-
 nav a {
   background-color: var(--teal);
   color: var(--blue);
@@ -115,6 +106,15 @@ nav a:hover, nav a:active {
   background-color: var(--white);
 }
 
+li {
+  display: inline-block;
+  padding: 1rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
 #about-me,
 #projects,
 #contact-me {
@@ -126,6 +126,10 @@ nav a:hover, nav a:active {
   width: 30rem;
   border-radius: 50%;
   margin: 3rem;
+}
+
+.about-me p {
+  text-align: justify;
 }
 
 .card-box {
@@ -204,7 +208,6 @@ a.card-slide,
   background-image: url(./code-1.png);
 }
 
-
 .hero-project:hover, .card-slide:hover {
   opacity: 100%;
 }
@@ -218,8 +221,28 @@ a.card-slide,
 }
 
 @media screen and (min-width: 768px) {
+  nav a {
+    margin: 1rem 2rem;
+    padding: 1rem;
+  }
+  
+  li {
+    padding: 1rem 0 2rem 0;
+    font-size: 2rem;
+    }
+    
+  .about-me {
+    padding-bottom: 4rem;
+  }
+  
   .about-me img {
-    width: 25%;
+    width: 200px;
+    float: left;
+    margin: 0 4rem;
+  }
+
+  .about-me p {
+    text-align: justify;
   }
 
   a.card-slide {
@@ -228,10 +251,10 @@ a.card-slide,
 }
 
 @media screen and (min-width: 992px) {
-  header {
-    position: relative;
+  .about-me img {
+    margin: 0 6rem;
   }
-
+  
   a.card-slide {
     width: 27.5%;
   }

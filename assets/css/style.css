@@ -152,7 +152,6 @@ a.card-slide,
   justify-content: center;
   min-height: 200px;
   margin: 2%;
-  background: var(--white);
   border: 3px solid var(--blue);
   color: var(--blue);
   padding: 3%;
@@ -161,16 +160,21 @@ a.card-slide,
   border-radius: 10%;
   width: 43%;
   opacity: 80%;
-  background-image: linear-gradient(
+}
+ 
+ 
+ /* Saving for potential future use 
+
+    background-image: linear-gradient(
     rgba(114, 209, 247, 0.3) 0%,
     rgba(0, 4, 59, 0.6) 100%
     );
-}
+} */
 
 .hero-project {
   width: 90%;
   min-height: 300px;
-  background-image: url(cyber-security-3374252_1920.jpg);
+  background-image: url(images/cyber-security-3374252_1920.jpg);
 }
 
 .hero-project header, .card-slide header {
@@ -205,23 +209,27 @@ a.card-slide,
 }
 
 #img-1 {
-  background-image: url(./analytics-3088958_1920.jpg);
+  background-image: url(images/analytics-3088958_1920.jpg);
 }
 
 #img-2 {
-  background-image: url(./coding-1841550_1280.jpg);
+  background-image: url(images/coding-1841550_1280.jpg);
 }
 
 #img-3 {
-  background-image: url(./finger-2081169_1280.jpg);
+  background-image: url(images/finger-2081169_1280.jpg);
 }
 
 #img-4 {
-  background-image: url(./monitor-g0840db2e6_1280.jpg);
+  background-image: url(images/monitor-g0840db2e6_1280.jpg);
 }
 
 #img-5 {
-  background-image: url(./code-1.png);
+  background-image: url(images/code-1.png);
+}
+
+#img-6 {
+  background-image: url(images/binary-code-475664_640.jpg);
 }
 
 @media screen and (min-width: 768px) {

@@ -2,22 +2,24 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+As someone making the career switch to tech, it's important to be able to showcase my skills for potential employers and/or freelance customers.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project was extremely helpful in helping further my knowledge of HTML & CSS since it required me to start from scratch and build out a framework -- one that can be easily expanded as my skill set improves.
+
+The bigest hurdles I encountered:
+* choosing and implementing an appropriate nav bar and making it sticky
+* taking the site from mobile first to any size screen responsiveness while keeping the content well organized and pleasing to the eye
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Each version based on screen size
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![screnshot of mobile version](assets/images/screenshot-mobile.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![screnshot of tablet version](assets/images/screenshot-tablet.png)
+
+![screnshot of desktop version](assets/images/screenshot-desktop.png)
+
 
 ## Credits
 
@@ -28,21 +30,3 @@ If you followed tutorials, include links to those here as well.
 MIT License
 
 Copyright (c) 2022 bnicp
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

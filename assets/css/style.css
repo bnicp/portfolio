@@ -174,7 +174,7 @@ a.card-slide,
 .hero-project {
   width: 90%;
   min-height: 300px;
-  background-image: url(images/cyber-security-3374252_1920.jpg);
+  background-image: url(../images/cyber-security-3374252_1920.jpg);
 }
 
 .hero-project header, .card-slide header {
@@ -210,27 +210,27 @@ a.card-slide,
 }
 
 #img-1 {
-  background-image: url(images/analytics-3088958_1920.jpg);
+  background-image: url(../images/analytics-3088958_1920.jpg);
 }
 
 #img-2 {
-  background-image: url(images/coding-1841550_1280.jpg);
+  background-image: url(../images/coding-1841550_1280.jpg);
 }
 
 #img-3 {
-  background-image: url(images/finger-2081169_1280.jpg);
+  background-image: url(../images/finger-2081169_1280.jpg);
 }
 
 #img-4 {
-  background-image: url(images/monitor-g0840db2e6_1280.jpg);
+  background-image: url(../images/monitor-g0840db2e6_1280.jpg);
 }
 
 #img-5 {
-  background-image: url(images/code-1.png);
+  background-image: url(../images/code-1.png);
 }
 
 #img-6 {
-  background-image: url(images/binary-code-475664_640.jpg);
+  background-image: url(../images/binary-code-475664_640.jpg);
 }
 
 @media screen and (min-width: 768px) {

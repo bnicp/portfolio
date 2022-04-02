@@ -1,7 +1,7 @@
 :root {
   --blue: #012052;
   --white: #fff;
-  --teal: rgb(34, 201, 252);
+  --teal: #22c9fc;
 }
 
 * {
@@ -79,7 +79,8 @@ main {
 /* matching header and footer in color scheme */
 
 header,
-footer, .title {
+footer,
+.title {
   background-color: var(--blue);
   padding-top: 1rem;
   text-align: center;
@@ -89,8 +90,8 @@ footer, .title {
 
 header {
   position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+  position: sticky;
+  top: 0;
   z-index: 99;
 }
 
@@ -98,7 +99,6 @@ footer {
   height: 100px;
   color: var(--white);
 }
-
 
 /* nav with individual button appearance and hover traits */
 
@@ -116,7 +116,8 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover, nav a:active {
+nav a:hover,
+nav a:active {
   background-color: var(--white);
 }
 
@@ -127,9 +128,9 @@ li {
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
+}
 
-  /* three main sections of the portfolio - about me, projects, and contact*/
+/* three main sections of the portfolio - about me, projects, and contact*/
 
 #about-me,
 #projects,
@@ -170,9 +171,8 @@ a.card-slide,
   width: 43%;
   opacity: 80%;
 }
- 
- 
- /* Saving for potential future use 
+
+/* Saving for potential future use 
 
     background-image: linear-gradient(
     rgba(114, 209, 247, 0.3) 0%,
@@ -186,7 +186,8 @@ a.card-slide,
   background-image: url(../images/cyber-security-3374252_1920.jpg);
 }
 
-.hero-project header, .card-slide header {
+.hero-project header,
+.card-slide header {
   font-size: 1.3rem;
   padding: 1rem 0;
   color: var(--white);
@@ -203,12 +204,18 @@ a.card-slide,
   width: 200px;
 }
 
-.hero-project, #img-1, #img-2, #img-3, #img-4, #img-5 {
+.hero-project,
+#img-1,
+#img-2,
+#img-3,
+#img-4,
+#img-5 {
   background-size: cover;
   background-position: center;
 }
 
-.hero-project:hover, .card-slide:hover {
+.hero-project:hover,
+.card-slide:hover {
   opacity: 100%;
   transition: all 0.5s ease-out;
 }
@@ -251,16 +258,16 @@ a.card-slide,
     margin: 1rem 2rem;
     padding: 1rem;
   }
-  
+
   li {
     padding: 1rem 0 2rem 0;
     font-size: 2rem;
-    }
-    
+  }
+
   .about-me {
     padding-bottom: 4rem;
   }
-  
+
   .about-me img {
     width: 200px;
     float: left;
@@ -280,7 +287,7 @@ a.card-slide,
   .about-me img {
     margin: 0 6rem;
   }
-  
+
   a.card-slide {
     width: 27.5%;
   }

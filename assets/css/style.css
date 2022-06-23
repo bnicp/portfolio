@@ -47,6 +47,7 @@ h4 {
 
 h5 {
   font-size: 2rem;
+  color: var(--teal);
 }
 
 h6 {
@@ -89,7 +90,7 @@ footer,
 /* sticky header */
 
 header {
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
   position: sticky;
   top: 0;
   z-index: 99;
@@ -251,6 +252,15 @@ a.card-slide,
 
 #img-6 {
   background-image: url(../images/binary-code-475664_640.jpg);
+}
+
+/* items on project page */
+.project-list h5 {
+  margin-top: 2rem;
+}
+
+.project-list p {
+  margin-bottom: 4rem;
 }
 
 /* responsive design keeping everything centered and aligned going up from mobile */
